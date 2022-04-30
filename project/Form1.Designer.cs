@@ -149,6 +149,8 @@
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(100, 23);
             this.textBox24.TabIndex = 45;
+            this.textBox24.Text = "0";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox25
             // 
@@ -156,6 +158,8 @@
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(100, 23);
             this.textBox25.TabIndex = 44;
+            this.textBox25.Text = "0";
+            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox25.TextChanged += new System.EventHandler(this.textBox25_TextChanged);
             // 
             // textBox26
@@ -164,6 +168,8 @@
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(100, 23);
             this.textBox26.TabIndex = 43;
+            this.textBox26.Text = "0";
+            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox27
             // 
@@ -171,6 +177,8 @@
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(100, 23);
             this.textBox27.TabIndex = 42;
+            this.textBox27.Text = "0";
+            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox23
             // 
@@ -178,6 +186,8 @@
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(100, 23);
             this.textBox23.TabIndex = 41;
+            this.textBox23.Text = "0";
+            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBox1
             // 
@@ -240,7 +250,10 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::project.Properties.Resources._11c152ef_1d2d_4a8e_80d5_a514c43bdd7e;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.checkBox12);
             this.panel3.Controls.Add(this.textBox14);
             this.panel3.Controls.Add(this.checkBox14);
             this.panel3.Controls.Add(this.textBox15);
@@ -258,9 +271,9 @@
             this.panel3.Controls.Add(this.textBox10);
             this.panel3.Controls.Add(this.textBox13);
             this.panel3.Controls.Add(this.checkBox11);
-            this.panel3.Controls.Add(this.checkBox12);
             this.panel3.Controls.Add(this.checkBox13);
             this.panel3.Controls.Add(this.label3);
+            this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(965, 130);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(418, 574);
@@ -269,10 +282,13 @@
             // 
             // textBox14
             // 
+            this.textBox14.BackColor = System.Drawing.SystemColors.Info;
             this.textBox14.Location = new System.Drawing.Point(262, 459);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 23);
             this.textBox14.TabIndex = 39;
+            this.textBox14.Text = "0";
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox14
             // 
@@ -284,27 +300,37 @@
             this.checkBox14.TabIndex = 38;
             this.checkBox14.Text = "Chocolate milk shake";
             this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox14.CheckedChanged += new System.EventHandler(this.checkBox14_CheckedChanged);
             // 
             // textBox15
             // 
+            this.textBox15.BackColor = System.Drawing.SystemColors.Info;
             this.textBox15.Location = new System.Drawing.Point(262, 362);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 23);
             this.textBox15.TabIndex = 37;
+            this.textBox15.Text = "0";
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox16
             // 
+            this.textBox16.BackColor = System.Drawing.SystemColors.Info;
             this.textBox16.Location = new System.Drawing.Point(262, 412);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(100, 23);
             this.textBox16.TabIndex = 36;
+            this.textBox16.Text = "0";
+            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox17
             // 
+            this.textBox17.BackColor = System.Drawing.SystemColors.Info;
             this.textBox17.Location = new System.Drawing.Point(262, 333);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(100, 23);
             this.textBox17.TabIndex = 35;
+            this.textBox17.Text = "0";
+            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox15
             // 
@@ -316,6 +342,7 @@
             this.checkBox15.TabIndex = 34;
             this.checkBox15.Text = "Strewberry shake";
             this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox15.CheckedChanged += new System.EventHandler(this.checkBox15_CheckedChanged);
             // 
             // checkBox16
             // 
@@ -327,6 +354,7 @@
             this.checkBox16.TabIndex = 33;
             this.checkBox16.Text = "Vanilla shake";
             this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBox16.CheckedChanged += new System.EventHandler(this.checkBox16_CheckedChanged);
             // 
             // checkBox17
             // 
@@ -338,111 +366,141 @@
             this.checkBox17.TabIndex = 32;
             this.checkBox17.Text = "Vanilla cone ";
             this.checkBox17.UseVisualStyleBackColor = true;
+            this.checkBox17.CheckedChanged += new System.EventHandler(this.checkBox17_CheckedChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(188, 278);
+            this.label6.Location = new System.Drawing.Point(151, 278);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 32);
             this.label6.TabIndex = 31;
             this.label6.Text = "Shakes";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(262, 224);
+            this.textBox11.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox11.Location = new System.Drawing.Point(262, 235);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 23);
             this.textBox11.TabIndex = 30;
+            this.textBox11.Text = "0";
+            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(262, 195);
+            this.textBox12.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox12.Location = new System.Drawing.Point(262, 201);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 23);
             this.textBox12.TabIndex = 29;
+            this.textBox12.Text = "0";
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBox9.ForeColor = System.Drawing.Color.Black;
             this.checkBox9.Location = new System.Drawing.Point(17, 229);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(135, 29);
             this.checkBox9.TabIndex = 28;
             this.checkBox9.Text = "Bottle water";
             this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged_1);
             // 
             // checkBox10
             // 
             this.checkBox10.AutoSize = true;
             this.checkBox10.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBox10.ForeColor = System.Drawing.Color.Black;
             this.checkBox10.Location = new System.Drawing.Point(17, 195);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(94, 29);
             this.checkBox10.TabIndex = 27;
             this.checkBox10.Text = "Orange";
             this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(262, 98);
+            this.textBox9.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox9.Location = new System.Drawing.Point(262, 108);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 23);
             this.textBox9.TabIndex = 26;
+            this.textBox9.Text = "0";
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(262, 148);
+            this.textBox10.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox10.Location = new System.Drawing.Point(262, 154);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 23);
             this.textBox10.TabIndex = 25;
+            this.textBox10.Text = "0";
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(262, 69);
+            this.textBox13.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox13.Location = new System.Drawing.Point(262, 75);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 23);
             this.textBox13.TabIndex = 22;
+            this.textBox13.Text = "0";
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBox11.ForeColor = System.Drawing.Color.Black;
             this.checkBox11.Location = new System.Drawing.Point(17, 148);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(78, 29);
             this.checkBox11.TabIndex = 19;
             this.checkBox11.Text = "Coffe";
             this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
             // 
             // checkBox12
             // 
             this.checkBox12.AutoSize = true;
             this.checkBox12.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBox12.ForeColor = System.Drawing.Color.Black;
             this.checkBox12.Location = new System.Drawing.Point(17, 103);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(69, 29);
             this.checkBox12.TabIndex = 18;
             this.checkBox12.Text = "Cola";
             this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBox12.CheckedChanged += new System.EventHandler(this.checkBox12_CheckedChanged);
             // 
             // checkBox13
             // 
             this.checkBox13.AutoSize = true;
             this.checkBox13.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.checkBox13.ForeColor = System.Drawing.Color.Black;
             this.checkBox13.Location = new System.Drawing.Point(17, 69);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(59, 29);
             this.checkBox13.TabIndex = 17;
             this.checkBox13.Text = "Tea";
             this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label3.Location = new System.Drawing.Point(30, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 30);
@@ -470,17 +528,21 @@
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(341, 213);
+            this.textBox18.Location = new System.Drawing.Point(341, 228);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(100, 23);
             this.textBox18.TabIndex = 40;
+            this.textBox18.Text = "0";
+            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(341, 184);
+            this.textBox19.Location = new System.Drawing.Point(341, 194);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(100, 23);
             this.textBox19.TabIndex = 39;
+            this.textBox19.Text = "0";
+            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox18
             // 
@@ -492,6 +554,7 @@
             this.checkBox18.TabIndex = 38;
             this.checkBox18.Text = "Pancakes-syrup";
             this.checkBox18.UseVisualStyleBackColor = true;
+            this.checkBox18.CheckedChanged += new System.EventHandler(this.checkBox18_CheckedChanged);
             // 
             // checkBox19
             // 
@@ -503,27 +566,34 @@
             this.checkBox19.TabIndex = 37;
             this.checkBox19.Text = "Chocolate muffin";
             this.checkBox19.UseVisualStyleBackColor = true;
+            this.checkBox19.CheckedChanged += new System.EventHandler(this.checkBox19_CheckedChanged);
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(341, 87);
+            this.textBox20.Location = new System.Drawing.Point(341, 102);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(100, 23);
             this.textBox20.TabIndex = 36;
+            this.textBox20.Text = "0";
+            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(341, 137);
+            this.textBox21.Location = new System.Drawing.Point(341, 147);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(100, 23);
             this.textBox21.TabIndex = 35;
+            this.textBox21.Text = "0";
+            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(341, 58);
+            this.textBox22.Location = new System.Drawing.Point(341, 68);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(100, 23);
             this.textBox22.TabIndex = 34;
+            this.textBox22.Text = "0";
+            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox20
             // 
@@ -535,6 +605,7 @@
             this.checkBox20.TabIndex = 33;
             this.checkBox20.Text = "Pinapple stick";
             this.checkBox20.UseVisualStyleBackColor = true;
+            this.checkBox20.CheckedChanged += new System.EventHandler(this.checkBox20_CheckedChanged);
             // 
             // checkBox21
             // 
@@ -546,6 +617,7 @@
             this.checkBox21.TabIndex = 32;
             this.checkBox21.Text = "Toested bagel";
             this.checkBox21.UseVisualStyleBackColor = true;
+            this.checkBox21.CheckedChanged += new System.EventHandler(this.checkBox21_CheckedChanged);
             // 
             // checkBox22
             // 
@@ -557,6 +629,7 @@
             this.checkBox22.TabIndex = 31;
             this.checkBox22.Text = "Hash brown";
             this.checkBox22.UseVisualStyleBackColor = true;
+            this.checkBox22.CheckedChanged += new System.EventHandler(this.checkBox22_CheckedChanged);
             // 
             // label4
             // 
@@ -599,6 +672,8 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 23);
             this.textBox8.TabIndex = 17;
+            this.textBox8.Text = "0";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox7
             // 
@@ -606,6 +681,8 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 23);
             this.textBox7.TabIndex = 16;
+            this.textBox7.Text = "0";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox6
             // 
@@ -613,6 +690,8 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 23);
             this.textBox6.TabIndex = 15;
+            this.textBox6.Text = "0";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
             // 
@@ -620,6 +699,8 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 23);
             this.textBox5.TabIndex = 14;
+            this.textBox5.Text = "0";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
@@ -627,6 +708,8 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 23);
             this.textBox4.TabIndex = 13;
+            this.textBox4.Text = "0";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
@@ -634,6 +717,8 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 12;
+            this.textBox3.Text = "0";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
@@ -641,6 +726,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 11;
+            this.textBox2.Text = "0";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
             // 
@@ -648,6 +735,8 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 10;
+            this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // checkBox8
             // 
@@ -659,6 +748,7 @@
             this.checkBox8.TabIndex = 9;
             this.checkBox8.Text = "Chicken sandwish";
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // checkBox7
             // 
@@ -670,6 +760,7 @@
             this.checkBox7.TabIndex = 8;
             this.checkBox7.Text = "Cheese sandwish";
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -681,6 +772,7 @@
             this.checkBox6.TabIndex = 7;
             this.checkBox6.Text = "Fish sandwish";
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -704,6 +796,7 @@
             this.checkBox4.TabIndex = 5;
             this.checkBox4.Text = "Onion rings";
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -715,6 +808,7 @@
             this.checkBox3.TabIndex = 4;
             this.checkBox3.Text = "Hamburger";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -726,6 +820,7 @@
             this.checkBox2.TabIndex = 3;
             this.checkBox2.Text = "Salad";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -737,6 +832,7 @@
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "Fries\r\n";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label2
             // 
@@ -802,6 +898,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

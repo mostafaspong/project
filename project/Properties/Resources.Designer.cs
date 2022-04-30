@@ -59,5 +59,55 @@ namespace project.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _099b8219_9694_47e0_ac01_1f946a98e8e9 {
+            get {
+                object obj = ResourceManager.GetObject("099b8219-9694-47e0-ac01-1f946a98e8e9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11c152ef_1d2d_4a8e_80d5_a514c43bdd7e {
+            get {
+                object obj = ResourceManager.GetObject("11c152ef-1d2d-4a8e-80d5-a514c43bdd7e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _133242_632_w_canny_pic {
+            get {
+                object obj = ResourceManager.GetObject("133242_632_w_canny_pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cover_restaurant_menu_designs_vector_3100711 {
+            get {
+                object obj = ResourceManager.GetObject("cover-restaurant-menu-designs-vector-3100711", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap تنزيل {
+            get {
+                object obj = ResourceManager.GetObject("تنزيل", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
